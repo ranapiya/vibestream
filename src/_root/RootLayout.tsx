@@ -6,7 +6,7 @@ import LeftSidebar from "@/components/shared/LeftSidebar";
 
 const RootLayout = () => {
   return (
-    <div className="w-full md:flex">
+    <div className="w-full md:flex bg-gradient-to-r from-black via-red-500 to-pink-900">
       <Topbar />
       <LeftSidebar />
 
